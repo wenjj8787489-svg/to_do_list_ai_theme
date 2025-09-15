@@ -11,13 +11,9 @@
 
 ## Demo 演示
 
-> 你可以将演示视频上传到 Bilibili、腾讯视频、YouTube 等平台，然后用如下方式嵌入（以 Bilibili 为例）：
+> 视频链接：
 
-<iframe src="https://player.bilibili.com/player.html?bvid=你的BVID" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="600" height="400"> </iframe>
-
-或直接放视频链接：
-
-[点击观看 Demo 演示](https://你的演示视频链接)
+[点击观看 Demo 演示]([https://你的演示视频链接](https://www.bilibili.com/video/BV1DSpuzJECE/))
 
 ## 主要功能
 
