@@ -11,9 +11,7 @@
 
 ## Demo 演示
 
-> 视频链接：
-
-[点击观看 Demo 演示]([https://你的演示视频链接](https://www.bilibili.com/video/BV1DSpuzJECE/))
+> 视频链接：https://www.bilibili.com/video/BV1DSpuzJECE/
 
 ## 主要功能
 
@@ -53,7 +51,7 @@
 5. 浏览器访问 [http://localhost:3000](http://localhost:3000)
 
 ## 参考与致谢
-
+- 参考项目：https://github.com/lordwill1/todo-list
 - 字体：[Google Fonts](https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap)
 - 图标：[Font Awesome](https://fontawesome.com)
 - AI 接口：[通义千问 DashScope](https://dashscope.aliyun.com/)
