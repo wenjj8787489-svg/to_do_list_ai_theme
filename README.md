@@ -1,53 +1,69 @@
-# Foundation Project
+# 智能 To-Do List 待办事项应用
 
-# To-Do-List
+## 项目简介
 
-## A Simple To - Do Website!
+本项目基于开源 To-Do List 项目二次开发，新增了多主题切换和 AI 智能扩展功能。用户可以便捷地管理待办事项，并通过接入通义千问大模型一键扩展任务内容，提升效率和体验。
 
-# To Do List
+## 在线体验
 
+> 部署方式：支持本地运行和云服务器部署  
+> （如已部署，可在此处放置访问链接）
 
-#### This web page is hosted [here!](https://lordwill1.github.io/todo-list/)
+## Demo 演示
 
+> 你可以将演示视频上传到 Bilibili、腾讯视频、YouTube 等平台，然后用如下方式嵌入（以 Bilibili 为例）：
 
-### *Features*:
+<iframe src="https://player.bilibili.com/player.html?bvid=你的BVID" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="600" height="400"> </iframe>
 
-* User-friendly
-* Local Storage Supported
-* Displays current Date and Time
-* Responsive, on all devices
-* Themes: Users can choose among different themes.
+或直接放视频链接：
 
-### *Features to be added*:
+[点击观看 Demo 演示](https://你的演示视频链接)
 
-* SubTasks: Adding subtasks to the enlisted tasks, could be an option.
-* Neumorphic Interface: For the to-do's so, it looks more appealing, Can use SASS (.scss file)
-* ScratchPad: Adding an option of a Scratch pad and it can be locally saved.
-* Login Features (use APIs) & Database: So the website can be opened on any device, users can log in, and the To-Dos can be viewed anywhere, anytime.
-* Reminder/Alerts: Sending automated mails once logged in, and due date/time set.
+## 主要功能
 
-# *References*
+- 🌈 多主题切换（标准、明亮、深色、Chiikawa 等）
+- 🤖 AI 智能扩展：一键调用通义千问大模型，自动补全或优化待办事项
+- 🕒 实时显示当前日期和时间
+- 💾 本地存储：自动保存任务，刷新页面不丢失
+- 📱 响应式设计，适配手机、平板和桌面端
+- 🗑️ 支持任务添加、删除、完成状态切换
 
-* For Fonts: [Google Fonts](https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap)
-* For Basic Icons (like Trash and Check buttons): [font-awesome](https://fontawesome.com)
-* For Favicon: [icons8](https://icons8.com/icons/)
-* For Color Coordination: [w3schools](https://www.w3schools.com/colors/colors_mixer.asp?colorbottom=000000&colortop=FFFFFF)
-* For JavaScript (Tutorial): [The Net Ninja](https://www.youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET)
-* For help with CSS: [CSS Tricks](https://css-tricks.com/)
-* For more CSS effects: [text-effects](https://speckyboy.com/underline-text-effects-css/)
-* For Type Writing effects: [Type-effects](https://usefulangle.com/post/85/css-typewriter-animation)
-* For Local Storage: [Web Dev Simplified Blog](https://blog.webdevsimplified.com/2020-08/cookies-localStorage-sessionStorage/)
+## 技术栈
 
-# *Contributions*
+- 前端：HTML5、CSS3（含响应式）、JavaScript
+- 后端：Node.js + Express
+- AI 接口：通义千问大模型（DashScope API）
 
-- All contributors are most welcome! This is definitely open source!
+## 快速启动
 
-## *WEBSITE DEMO*
+1. 克隆项目到本地  
+   ```bash
+   git clone https://github.com/你的用户名/你的仓库名.git
+   cd 你的仓库名
+   ```
+2. 安装依赖  
+   ```bash
+   npm install
+   ```
+3. 配置环境变量  
+   在根目录新建 `.env` 文件，内容如下（需申请通义千问 API Key）：
+   ```
+   DASHSCOPE_API_KEY=你的API密钥
+   ```
+4. 启动服务  
+   ```bash
+   node server.js
+   ```
+5. 浏览器访问 [http://localhost:3000](http://localhost:3000)
 
-![Screenshot (771)](https://user-images.githubusercontent.com/61280281/99399713-0844b900-290c-11eb-8d7c-1199319b4a9e.png)
+## 参考与致谢
 
-![Screenshot (772)](https://user-images.githubusercontent.com/61280281/99399731-0da20380-290c-11eb-8a59-e0a2e5f9b19f.png)
+- 字体：[Google Fonts](https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap)
+- 图标：[Font Awesome](https://fontawesome.com)
+- AI 接口：[通义千问 DashScope](https://dashscope.aliyun.com/)
 
-![Screenshot (773)](https://user-images.githubusercontent.com/61280281/99399728-0d096d00-290c-11eb-9ee5-59cc8358676c.png)
+## 贡献
 
-![Screenshot (774)](https://user-images.githubusercontent.com/61280281/99399723-0b3fa980-290c-11eb-8728-03d974be548d.png)
+欢迎提交 issue 和 PR，一起完善项目！
+
+---
